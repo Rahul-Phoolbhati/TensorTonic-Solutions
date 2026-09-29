@@ -6,8 +6,8 @@ def dot_product(x: list, y: list) -> float:
     """
     # Write code here
     # print(type(np.dot(x,y)))
-    return float(np.dot(x,y))
-    return 
+    # return float(np.dot(x,y))
+    return float(x@y) # used for matrix multiplication 
 
     
     
